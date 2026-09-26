@@ -117,7 +117,7 @@ what the app expects from you.
 
 **Security context:** the images run as UID `10001` (non-root), so `runAsNonRoot: true` works.
 
-**Resources:** each pod idles at about 40 to 50 Mi of memory. `requests: 50m CPU / 64Mi` and
+**Resources:** each pod idles at about 35 Mi of memory. `requests: 50m CPU / 64Mi` and
 `limits: 128Mi` are plenty.
 
 **Config:** the pricing variables are a natural fit for a ConfigMap. Keep in mind
